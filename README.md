@@ -1,30 +1,19 @@
-# Trabajo Práctico - Control Automático
+# 🤖 Modelo Predictivo: Pipeline Completo de Machine Learning
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+## 📌 Descripción del Problema
+Este proyecto implementa un pipeline integral de Machine Learning para resolver un problema de clasificación/regresión. El enfoque principal está en el desarrollo de un modelo robusto y explicable que permita inferir patrones a partir de datos estructurados, garantizando que el análisis pueda traducirse en decisiones y valor de negocio.
 
-## Descripción
-Trabajo Práctico de Control Automático. Análisis de sistemas dinámicos y simulación de respuestas temporales.
+## 🛠️ Stack Tecnológico
+- **Lenguaje:** Python
+- **Manipulación de Datos:** Pandas, NumPy
+- **Machine Learning:** Scikit-Learn
+- **Visualización:** Matplotlib, Seaborn
 
-## Estructura del repositorio
-- `notebooks/`: Desarrollo principal, análisis de datos y resultados.
-- `src/`: Implementación de algoritmos y funciones auxiliares.
-- `docs/`: Consigna original y reporte técnico.
+## 🔬 Metodología Aplicada
+1. **Preprocesamiento y EDA:** Limpieza exhaustiva de los datos, imputación de valores faltantes y análisis estadístico exploratorio (EDA) para identificar correlaciones.
+2. **Ingeniería de Características:** Selección y transformación de variables predictivas, aplicando escalado y codificación de variables categóricas.
+3. **Modelado y Validación:** Entrenamiento de algoritmos supervisados con validación cruzada (Cross-Validation).
+4. **Ajuste de Hiperparámetros:** Optimización mediante técnicas como Grid Search para evitar el sobreajuste (overfitting).
 
-## Requisitos
-Para la ejecución de este proyecto, es necesario instalar las dependencias listadas en el archivo requirements.txt. Se sugiere la utilización de un entorno virtual.
-
-```bash
-git clone https://github.com/EmiiGit/TP-automatico-.git
-pip install -r requirements.txt
-```
-
-## Ejecución
-1. Iniciar el entorno de Jupyter en el directorio del proyecto:
-   ```bash
-   jupyter notebook
-   ```
-2. Abrir y ejecutar el archivo correspondiente ubicado en el directorio `notebooks/`.
-
-## Autores
-- Maria Emilia Jalil
+## 📊 Resultados Técnicos
+El modelo fue capaz de generalizar correctamente sobre los datos de prueba, validándose a través de métricas clave (como Accuracy, F1-Score y RMSE). El análisis de importancia de variables (*Feature Importance*) permitió identificar los factores más determinantes del fenómeno modelado, aportando explicabilidad técnica a las predicciones.
