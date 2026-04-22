@@ -27,4 +27,4 @@ pip install -r requirements.txt
 2. Abrir y ejecutar el archivo correspondiente ubicado en el directorio `notebooks/`.
 
 ## Autores
-- [Padrón / Apellido y Nombre]
+- Maria Emilia Jalil
